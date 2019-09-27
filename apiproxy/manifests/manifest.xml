@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="JavaScript-DefaultError" version="SHA-512:acac2e81302237336407aa85486c7f11209bbd38187a9068a706ff915539cf02114e5ed19809608c7d4baf1255fb6c50a5878db1d4f2ca68a5fbc5bd20851aee"/>
+        <VersionInfo resourceName="JavaScript-FR400" version="SHA-512:9a12862193dcf6b7c9560d09af6d629cb40daa3ac18afc8809d07a9993a99a1d18b80f4b7e9533dcfa388e15e42eb8cc7bbef3f77a5fd40016d823d72246e3f4"/>
+        <VersionInfo resourceName="JavaScript-FR401" version="SHA-512:53b1d030cf0ee2ad3c2b6c5eb0894abee4c251911cbfc2f4905bbac636fa0695af751681586f81f90847785a95f5b183259903bfa0b043ef8bca14b10517e86c"/>
+        <VersionInfo resourceName="JavaScript-FR404" version="SHA-512:d38879aaf5a470ec5a1e11f325890d10174ee3a456566f00290c30ad36adeb86693938bd8d052d0f763d55cbadf0c3df912046ba8ce50bc35cd0464d0a147c19"/>
+        <VersionInfo resourceName="Quota-1" version="SHA-512:e1545989bf04eaade3e067f6aa2f3426c08854a71c1fc373e43a7608a67cdd56d4c9a05e704b55fda3e0f158ad1132ee25a467d89503c2d4bc01b4ff07d59150"/>
+        <VersionInfo resourceName="Raise-Fault-CheckQueryParameters" version="SHA-512:97bf8de90d4179de9a0e6e9bef8b8c1cc4f88ff3a88de10a5a6ea1db41fb6bb9dc1883b365530b4f5867eaff922f9903901f3a9a5bb7a3d50b5091d402a2a649"/>
+        <VersionInfo resourceName="Remove apikey" version="SHA-512:bef7db4c279cca484f2449d3c2a4683e6aa6c8dd1531b176bf830c3a2507e8fb225e541db916d84fff3cd662295ca56bf7e47639967d5005aed797681824d6ce"/>
+        <VersionInfo resourceName="Verify-API-Key-1" version="SHA-512:f7a505b64d04d747fab13e2437bfdf63ae1859119e978ffe87635400309136710fe70d7c38b7c4e08acfb0af15668aca2abb62768e7841d32cd0a387df02fe8c"/>
+        <VersionInfo resourceName="add-cors" version="SHA-512:fc494527948aeb966f242a6c6af30df52c1aa19089c2f8b84192100be3703c5b018d3c944040d52067aec2b85dcf4f5a7647b5c04b0a579de03594dd82029762"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:0a603555bbc8bc075221d92a95643cbc841fc2f3e85637b1f45bb5623de9decec1118c1438cec397535023ad12f90d0c74898b7917bef249fdbfec52cc6c8391"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://DefaultError.js" version="SHA-512:79c30bd4bc22407d7feaad2b2c9fb0f0a7919f3036820fe57c885c018a065bf8c5a2819d4dc5969557b152ddf0455275e90e43de34c60f56a74321d6c8015c58"/>
+        <VersionInfo resourceName="jsc://FR400.js" version="SHA-512:257290a9a671e54cd3a2d285c7d697676e46f564d8bd61357bb0c67acc4646e0fc339baace25983b272ccc406236f30dd128bb02bd89af6795e094337e6a8284"/>
+        <VersionInfo resourceName="jsc://FR401.js" version="SHA-512:f522ee423ddb43d967b0309c2cdaea01315b3d5991b46735c5b8efe553ce1523d1be7873eed4b3d399213f644c85f64ddc1560e7a5fd3b4954e6f7d54c638cf3"/>
+        <VersionInfo resourceName="jsc://JavaScript-FR404.js" version="SHA-512:f5e4eb1f0b56ff66a5cadbb8eee564109b9e9884363119818d3374213d78ea4b40932a650f59560db16c6e2673093e59853ae52af4e544ea7847b9cbc18676f9"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:10fadd7ae357218ff99ecca5984ca2799637beb2b999d058ed22069c18d441beda8118e005ff541b5f60fad95887bfd3299165216c50a94a634b07e9ec709d2c"/>
+    </TargetEndpoints>
+</Manifest>

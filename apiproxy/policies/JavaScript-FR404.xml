@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript async="false" continueOnError="false" enabled="true" timeLimit="200" name="JavaScript-FR404">
+    <DisplayName>JavaScript-FR404</DisplayName>
+    <Properties/>
+    <ResourceURL>jsc://JavaScript-FR404.js</ResourceURL>
+</Javascript>

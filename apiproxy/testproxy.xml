@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="testproxy">
+    <Basepaths>/testproxy</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1569511956810</CreatedAt>
+    <CreatedBy>clauther.nguimnang.kenfack@devoteam.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>testproxy</DisplayName>
+    <LastModifiedAt>1569511956810</LastModifiedAt>
+    <LastModifiedBy>clauther.nguimnang.kenfack@devoteam.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:c677308eb09b43eea26683479adf8716fdb55ac7742670275eac807d35713eccc027776d29ab08d35a01ecd8ef03790454298ac14ea29e5eb60843b1903f8a55</ManifestVersion>
+    <Policies>
+        <Policy>JavaScript-DefaultError</Policy>
+        <Policy>JavaScript-FR400</Policy>
+        <Policy>JavaScript-FR401</Policy>
+        <Policy>JavaScript-FR404</Policy>
+        <Policy>Quota-1</Policy>
+        <Policy>Raise-Fault-CheckQueryParameters</Policy>
+        <Policy>Remove apikey</Policy>
+        <Policy>Verify-API-Key-1</Policy>
+        <Policy>add-cors</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://DefaultError.js</Resource>
+        <Resource>jsc://FR400.js</Resource>
+        <Resource>jsc://FR401.js</Resource>
+        <Resource>jsc://JavaScript-FR404.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
